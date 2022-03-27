@@ -32,6 +32,7 @@ def write_to_csv(data):
         csv_writer.writerow([email, subject, message])
 
 
+# Grabs data from the contact form.
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
     if request.method == 'POST':
