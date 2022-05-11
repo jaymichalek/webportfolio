@@ -266,7 +266,7 @@ body {
     font-size: 11px;
     line-height: 1.78;
     color: #000;
-    background-color: #fff;
+    background-color: #80dfff;
 }
 button,
 input,
@@ -3774,7 +3774,7 @@ tbody.collapse.in {
     }
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: #80dfff;
     border-color: transparent;
 }
 .navbar-default .navbar-brand {
