@@ -57,6 +57,8 @@ b,
 strong {
     font-weight: 700;
 }
+/* Created custom paragraph class for selected paragraphs in the page
+    so text is visible (from black to white).*/
 .upper_paragraph {
     color: #f5f5f5;
     font-family: Roboto Mono, Helvetica, Arial, sans-serif;
@@ -471,6 +473,12 @@ h6 {
 .header2 {
     color: #f5f5f5;
     margin-top: 100px;
+}
+/* Added this class for white font and margin for selected H2 elements contact page
+    only. Does not affect other H2.*/
+.header_contact {
+    color: #f5f5f5;
+    margin-top: 150px;
 }
 p {
     margin: 0 0 9.5px;
@@ -1952,6 +1960,7 @@ input[type="search"] {
     }
 }
 .form-group {
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 .checkbox,
@@ -2567,6 +2576,11 @@ fieldset[disabled] .btn-success:hover {
 }
 .btn-info {
     border-color: #5bc0de;
+}
+/* Created custom class for submit button in contact page (white instead of black). */
+.btn-submit {
+    color: #fff;
+    border-color: #fff;
 }
 .btn-info,
 .btn-info.focus,
@@ -4902,13 +4916,19 @@ blockquote small {
     font-size: 50%;
 }
 .fa-icon {
-    color: #000;
+    color: #fff;
     width: 32px;
     height: 32px;
     display: inline-block;
     line-height: 32px;
     font-size: 15px;
     text-align: center;
+}
+/* Added this class for hover increased size animation.*/
+.fa-icon:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 .form-control {
     box-shadow: none;
