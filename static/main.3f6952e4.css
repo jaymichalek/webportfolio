@@ -4805,6 +4805,14 @@ body.minimal {
     background-repeat: no-repeat;
     background-position: top;
 }
+/* Created this custom class for max-width of 600px so background would change to only color black
+    with no image.*/
+@media (max-width: 600px) {
+    .background-image-alternative {
+        background-color: #000;
+    }
+}
+
 .btn {
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -5113,7 +5121,7 @@ textarea {
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #fff;
+    background-color: transparent;
 }
 @media (max-width: 768px) {
     .navbar-inverse {
@@ -5126,7 +5134,7 @@ textarea {
         background-color: transparent;
     }
     .navbar-default .navbar-collapse {
-        background-color: #fff;
+        background-color: #000;
     }
 }
 .nav > li > a {
