@@ -471,6 +471,9 @@ h6 {
 /* Added this class for white font and margin for selected H2 elements of each page.
     Also added bigger top margin so it doesn't collide with the nav bar.*/
 .header2 {
+    font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
     color: #f5f5f5;
     margin-top: 100px;
 }
@@ -4864,7 +4867,7 @@ h2:before {
     content: "";
     position: absolute;
     height: 100%;
-    background-color: #000;
+    background-color: #f5f5f5;
     width: 1px;
 }
 .h2:before,
