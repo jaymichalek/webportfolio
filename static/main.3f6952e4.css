@@ -4798,7 +4798,7 @@ body.minimal {
 }
 /* Created this custom class for max-width of 600px so background would change to only color blue
     with no image.*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .background-image-alternative {
         background-color: #33ccff;
     }
